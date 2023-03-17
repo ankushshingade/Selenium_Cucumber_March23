@@ -1,7 +1,8 @@
-import java.sql.SQLOutput;
+package IfElse;
+
 import java.util.Scanner;
 
-public class TriangleTypes {
+public class TriangleTypes_Angles {
     public static void main(String[] args) {
 
         // Types of triangles based on angle.
@@ -16,7 +17,7 @@ public class TriangleTypes {
         a = sc.nextInt(); b = sc.nextInt(); c = sc.nextInt();
 
         // Check if given angles can form a triangle.
-        if ((a+b+c) == 180){
+        if ((a+b+c) == 180 && a>0 && b>0 && c>0){
             System.out.println("Given angles can form a triangle.");
 
             if ((a<90) && (b<90) && (c<90))
