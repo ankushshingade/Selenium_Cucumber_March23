@@ -33,5 +33,9 @@ public class DateDemo1 {
         SimpleDateFormat sd5 = new SimpleDateFormat("hh:mm:ss");
         String dateStr5 = sd5.format(date);
         System.out.println(dateStr5);
+
+        SimpleDateFormat sd6 = new SimpleDateFormat("dd-MM-yyyy | E | hh:mm aa");
+        String dateStr6 = sd6.format(date);
+        System.out.println(dateStr6);
     }
 }
