@@ -15,7 +15,7 @@ public class MultiSelectDemo {
 
         driver.get("file:///C:/Users/Ankush/OneDrive/Desktop/Selenium_Cucumber_March23/amol.html");
 
-        // 1. Find the element of drop down
+        // 1. Find the element of multiselect list
         WebElement MultiSelect = driver.findElement(By.id("multiSel"));
 
         // 2. Create the object of Select class
